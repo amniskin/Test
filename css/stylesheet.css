@@ -64,6 +64,18 @@ div.butto{
 .show{
     display: inline-block;
 }
+.mainbody > #testimonials > .outer{
+    float:left;
+    width:100%;
+    margin: 0 5 20 5;
+    text-align: center;
+}
+.mainbody > #testimonials > .outer > #inner{
+    display: inline-block;
+    width: 20%;
+    min-width:300px;
+    margin:5px 15px 5px 15px;
+}
 .footer{
     position: relative;
     height: 50px;
