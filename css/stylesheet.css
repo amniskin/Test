@@ -1,0 +1,74 @@
+document{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+}
+div.butto{
+    height: 60px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #69D2E7;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Verdana, Arial, Sans-Serif;
+    opacity: 0.5;
+}
+.header{
+    display: inline;
+    background-color: rgba(245, 245, 245, 0.5);*/
+    height: 45px;
+    position: fixed;
+    float: left;
+    z-index: 1;
+    margin: -8 0 10 -8;
+    margin-bottom: 10px;
+    width: 100%;
+    padding:10 10 5 10;
+}
+.header #logo{
+    text-align: left;
+    font-size: xx-large;
+    display: inline-block;
+    opacity: 0.5;
+    cursor: default;
+}
+.header .navbar{
+    float: right;
+    font-size: large;
+    padding: 0 40 0 0;
+}
+.header > .navbar li{
+    display:inline;
+    float: left;
+    margin: 0 10 0 10;
+    list-style-type: none;
+    font-family: Arial;
+}
+.header > .navbar li div{
+    opacity: 0.5;
+    cursor: default;
+}
+.body{
+    float: left;
+    position: relative;
+    margin-top: 80px;
+    clear:right;
+    padding-top:80px;
+    width:100%;
+}
+.mainbody{
+    min-height: 700px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: inline-block;
+}
+.footer{
+    position: relative;
+    height: 50px;
+    clear: both;
+    margin: 20 10 5 10;
+    padding: 20 10 5 10;
+    text-align: center;
+}
