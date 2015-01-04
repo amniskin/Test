@@ -46,6 +46,9 @@ div.butto{
 .header > .navbar li div{
     opacity: 0.5;
     cursor: default;
+    padding: 10 10 10 10;
+    border-radius: 10px;
+    margin: -8 -10 -20 -10;
 }
 .body{
     float: left;
