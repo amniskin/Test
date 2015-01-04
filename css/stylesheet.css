@@ -53,13 +53,11 @@ div.butto{
 .body{
     float: left;
     position: relative;
-    margin-top: 80px;
-    clear:right;
-    padding-top:80px;
-    width:100%;
+    margin-top: 45px;
+    width: 100%;
 }
 .mainbody{
-    min-height: 700px;
+    min-height: 90%;
 }
 .hide{
     display: none;
@@ -84,7 +82,6 @@ div.butto{
     float:right;
     width:50%;
     margin: 20 100 20 0;
-    background-color: red;
 }
 .mainbody > #contact .left{
     display:inline-block;
@@ -93,7 +90,6 @@ div.butto{
     height:416px;
     margin:15 15 15 40;
     padding:2px;
-    background-color: blue;
 }
 .footer{
     position: relative;
@@ -102,4 +98,12 @@ div.butto{
     margin: 20 10 5 10;
     padding: 20 10 5 10;
     text-align: center;
+}
+.footer > #left {
+    float: left;
+    margin-left: 20px;
+}
+.footer > #right{
+    float: right;
+    margin-right: 20px;
 }
