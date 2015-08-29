@@ -1,0 +1,9 @@
+(page "index.html")
+
+(html
+  (head
+    (title "Welcome to the homepage of Testico!")
+    (script :type  "text/javascript"
+            :src  "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"))
+  (body
+    (p "And now for some magic... \\(x^2+y^2\\) I will DISAPPEAR!" )))
